@@ -11,5 +11,5 @@ export function pouet(
   xs: number[],
   f: (x: number) => Validation<string[], number>
 ): void {
-  array.traverse(validation. .getApplicativeS(array))(f, xs); // Hanging due to this space!
+  array.traverse(validation. .getApplicativeS(array))(f, xs); // Long hanging due to this space!
 }
